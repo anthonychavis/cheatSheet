@@ -18,11 +18,11 @@ The project goal was to build a cheat sheet using HTML table semantics for a cod
 
 ## Technologies
 
--   JavaScript - ES6+
 -   CSS3
 -   HTML5
 -   VSCode
-<!-- -   draw.io -->
+    <!-- -   JavaScript - ES6+ -->
+    <!-- -   draw.io -->
 
 ## Launch
 
