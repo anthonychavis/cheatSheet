@@ -1,0 +1,142 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* bg-color */
+    --code_bg-clr: rgba(255, 255, 255, 0.2);
+
+    /* color */
+    --color-1: #040102;
+    --color-2: #3ac5af;
+    --color-3: #c53a50;
+    --color-4: #f3eed6;
+    --color-5: #c5af3a;
+
+    /* font-fam */
+    --code_font-fam: 'Inconsolata', monospace;
+    --h1-h2_font-fam: 'Alegreya', serif;
+    --td-th_font-fam: 'PT Sans', sans-serif;
+
+    /* font-size */
+    --h1_font-sz: 3rem;
+    --caption_font-sz: 2.2rem;
+    --thead_font-sz: 1.45rem;
+    --cell_font-sz: 1.188rem;
+    --code_font-sz: 1.125rem;
+
+    /* font-wt */
+    --bold: 700;
+    --medium: 500;
+    --norm: 400;
+
+    /* inline-sz */
+    --table_inine-sz: calc(100% - 1rem);
+
+    /* margin */
+    --footer_marg-block: 1rem;
+    --table_marg-block: 2rem;
+    --marg_auto: auto;
+
+    /* padding */
+    --body_pad: 1.25rem;
+}
+
+body {
+    padding: var(--body-pad);
+    text-align: center;
+    background-color: var(--color-1);
+    color: var(--color-2);
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: var(--h1-h2_font-fam);
+    font-size: var(--h1_font-sz);
+    font-weight: var(--bold);
+    margin: var(--body_pad);
+}
+
+table {
+    font-size: var(--cell_font-sz);
+    max-inline-size: var(--table_inine-sz);
+    margin-block: var(--table_marg-block);
+    margin-inline: var(--marg_auto);
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+caption {
+    font-family: var(--h1-h2_font-fam);
+    font-size: var(--caption_font-sz);
+    font-weight: var(--bold);
+}
+
+thead {
+    font-size: var(--thead_font-sz);
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: super;
+}
+
+tr {
+    text-align: start;
+}
+
+td,
+th {
+    font-family: var(--td-th_font-fam);
+    text-align: start;
+    padding: 0.32em;
+    border-block-start: 1px solid var(--color-3);
+}
+th:nth-child(2),
+td:nth-child(2),
+th:last-child,
+td:last-child {
+    border-inline-start: 0.5px dashed var(--color-3);
+}
+th {
+    font-weight: var(--bold);
+}
+td {
+    font-weight: var(--norm);
+}
+
+code {
+    border-radius: 2px;
+    font-family: var(--code_font-fam);
+    font-weight: var(--medium);
+    background-color: var(--code_bg-clr);
+    font-size: var(--code_font-sz);
+    padding: 2px;
+}
+
+a {
+    color: var(--color-4);
+    cursor: pointer;
+    text-decoration: none;
+    border-block-end: var(--color-4) 1px solid;
+}
+a:visited {
+    color: var(--color-5);
+    border-block-end: var(--color-5) 1px solid;
+}
+a:hover,
+a:focus {
+    border-block-end: var(--color-4) 2px dashed;
+}
+a:active {
+    background-color: var(--code_bg-clr);
+    border-block-end: none;
+}
+
+footer {
+    margin-block: var(--footer_marg-block);
+}
