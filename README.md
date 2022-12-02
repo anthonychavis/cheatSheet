@@ -7,6 +7,7 @@ A demonstration of using tables on webpages
 -   [Introduction](#introduction)
 -   [Technologies](#technologies)
 -   [Launch](#launch)
+-   [Design System](#design-system)
     <!-- -   [Flowchart](#flowchart) -->
     <!-- -   [Architectrure](#architecture) -->
 -   [Sources](#sources)
@@ -28,6 +29,10 @@ The project goal was to build a cheat sheet using HTML table semantics for a cod
 
 [Live site][live-site]
 
+## Design System
+
+Cheat Sheet's [design system][design-system]
+
 <!-- ## Flowchart -->
 
 <!-- ![Flowchart][flowchart] -->
@@ -38,7 +43,7 @@ The project goal was to build a cheat sheet using HTML table semantics for a cod
 
 ## Sources
 
-This motivation for this project was Codecademy's "Challenge Project: Build Your Own Cheat Sheet" project. They provided an [example][example-site].
+The motivation for this project was Codecademy's "Challenge Project: Build Your Own Cheat Sheet" project. They provided an [example][example-site].
 
 ## Contact
 
@@ -49,6 +54,7 @@ This motivation for this project was Codecademy's "Challenge Project: Build Your
 ### Return to the [top](#)
 
 [live-site]: https://anthonychavis.github.io/cheatSheet/
+[design-system]: https://anthonychavis.github.io/cheatSheetDesignSystem/
 
 <!-- [flowchart]:  -->
 <!-- [architecture]:  -->
